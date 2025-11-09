@@ -1,0 +1,37 @@
+[
+    {
+        "campaignName": "Summer Sale 2025",
+        "clientName": "Saritha",
+        "startDate": "2025-10-14",
+        "status": "Active",
+        "id": 1760293096
+    },
+    {
+        "campaignName": "Winter Wonderland Promo",
+        "clientName": "Anvith",
+        "startDate": "2025-12-11",
+        "status": "Active",
+        "id": 1760293130
+    },
+    {
+        "campaignName": "Holiday Gift Specials",
+        "clientName": "Chaitra",
+        "startDate": "2025-09-10",
+        "status": "Completed",
+        "id": 1760293170
+    },
+    {
+        "campaignName": "Customer Loyalty Rewards",
+        "clientName": "Rahul",
+        "startDate": "2025-10-12",
+        "status": "Paused",
+        "id": 1760293208
+    },
+    {
+        "campaignName": "New Product Launch: XPhone",
+        "clientName": "Likhitha",
+        "startDate": "2025-10-30",
+        "status": "Active",
+        "id": 1760293240
+    }
+]

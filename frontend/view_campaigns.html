@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Campaigns</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>All Campaigns</h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="add_campaign.html">Add Campaign</a>
+            <a href="view_campaigns.html">View Campaigns</a>
+            <a href="index.html">Logout</a>
+        </nav>
+    </header>
+    <main class="container">
+        <input type="text" id="search" aria-label="Search campaigns" placeholder="Search by campaign or client name...">
+        <table>
+            <thead>
+                <tr>
+                    <th>Campaign Name</th>
+                    <th>Client Name</th>
+                    <th>Start Date</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="campaignTableBody">
+            </tbody>
+        </table>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
