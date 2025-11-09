@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, "frontend")));
 app.use(
   ["/login", "/register", "/campaigns"],
   createProxyMiddleware({
-  target: "hhttps://campaign-project-2.onrender.com/",
+  target: "https://campaign-project-2.onrender.com/",
   changeOrigin: true,
 })
 
