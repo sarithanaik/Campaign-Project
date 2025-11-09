@@ -7,8 +7,8 @@ import os
 app = Flask(__name__, static_folder='../frontend')
 CORS(app)
 
-USERS_FILE = 'users.json'
-CAMPAIGNS_FILE = 'campaigns.json'
+USERS_FILE = '/tmp/users.json'
+CAMPAIGNS_FILE = '/tmp/campaigns.json'
 
 def read_json(file):
     if not os.path.exists(file):
