@@ -11,9 +11,10 @@ app.use(express.static(path.join(__dirname, "frontend")));
 app.use(
   ["/login", "/register", "/campaigns"],
   createProxyMiddleware({
-    target: "https://your-flask-backend-name.onrender.com", 
-    changeOrigin: true,
-  })
+  target: "https://campaign-project-2-fp1u.onrender.com",
+  changeOrigin: true,
+})
+
 );
 
 
